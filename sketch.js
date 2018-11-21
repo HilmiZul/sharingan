@@ -23,8 +23,7 @@ function draw() {
 	ellipse(0, 0, 300, 300);
 
 	push();
-	let speed = mouseX / width;
-	rotate(-frameCount / 30 * speed);
+	rotate(-frameCount / 30);
 
 	// spining circle
 	fill(0);
